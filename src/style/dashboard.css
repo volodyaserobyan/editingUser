@@ -1,0 +1,52 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+.container {
+    display: flex;
+}
+
+.items {
+    height: 50px;
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.itemContext {
+    width: 70%;
+}
+
+.deleteItem {
+    width: 30%;
+    height: 20px;
+}
+
+.title {
+    height: 30px;
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.addItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 70%;
+}
+
+.containerItems {
+    width: 100%
+}

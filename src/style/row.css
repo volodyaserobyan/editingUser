@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+.blok{
+    width: 200px;
+    height: 350px;
+    border: 2px solid black;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .items {
+    height: 50px;
+    width: 100%;
+    margin: 2px;
+    border: 2px solid yellow;
+} */
